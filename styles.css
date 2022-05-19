@@ -1,0 +1,60 @@
+.digiCardInput{
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+#mainheader{
+    color: orange; 
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center; 
+    background-color: blue;
+}
+.cardFront{
+    box-sizing: border-box;
+    width: 33%;
+}
+.card-img{
+    width: 33%;
+}
+#col{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#digiContainer{
+    margin-left: 1px;
+    background-color: blue; 
+    margin-right: 0%;
+}
+#col{
+    transform-style: preserve-3d;
+    transition-duration: .8s;
+    position: relative;
+}
+.cardFront{
+    backface-visibility:hidden;
+    z-index: 10;
+}
+.card-bodyBack{
+    margin-top: 120px;
+    z-index: 1;
+}
+.card-title{
+    color: orange;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.card-text{
+    color: orange;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.flipCard{
+    transform: rotateY(360deg);
+    opacity: 0.1;
+}
+
+
+
+

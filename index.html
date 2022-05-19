@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <title>Project</title>
 </head>
+
 <body>
-    
+    <h1 id="mainheader">Digimon Card Collection</h1>
+    <div class="digiCardInput">
+        <div class="checkForm">
+            <input class="form-check-input" type="checkbox" value="In Training" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+                In Training
+            </label>
+        </div>
+        <div class="checkForm">
+            <input class="form-check-input" type="checkbox" value="Rookie" id="check">
+            <label class="form-check-label" for="flexCheckChecked">
+                Rookie
+            </label>
+        </div>
+        <div class="checkForm">
+            <input class="form-check-input" type="checkbox" value="Fresh" id="check">
+            <label class="form-check-label" for="flexCheckChecked">
+                Fresh
+            </label>
+        </div>
+        <div class="checkForm">
+            <input class="form-check-input" type="checkbox" value="Champion" id="check">
+            <label class="form-check-label" for="flexCheckChecked">
+                Champion
+            </label>
+        </div>
+        <div class="checkForm">
+            <input class="form-check-input" type="checkbox" value="Ultimate" id="check">
+            <label class="form-check-label" for="flexCheckChecked">
+                Ultimate
+            </label>
+        </div>
+        <div class="checkForm">
+            <input class="form-check-input" type="checkbox" value="Mega" id="check">
+            <label class="form-check-label" for="flexCheckChecked">
+                Mega
+            </label>
+        </div>
+        <div class="checkForm">
+            <input class="form-check-input" type="checkbox" value="Armor" id="check">
+            <label class="form-check-label" for="flexCheckChecked">
+                Armor
+            </label>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="digiContainer">
+    </div>
 </body>
+
 </html>
