@@ -1,7 +1,7 @@
 # Project-Phase-1
 
 ## What is the Project meant for
-This project is meant for people looking for the Level/Rank of their Digimon cards.
+This project is meant to help people looking for the Level/Rank of their Digimon cards.
 
 ## Is the Project Useful
 This project is useful for those people who want to learn what rank/level is their Digimon card, and for those people who want to learn more of the Digimon and their level and evolution.
