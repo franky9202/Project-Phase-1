@@ -1,7 +1,3 @@
-.digiCardInput{
-    margin-left: 10px;
-    margin-bottom: 30px;
-}
 #mainheader{
     color: orange; 
     font-style: italic;
@@ -9,36 +5,44 @@
     text-align: center; 
     background-color: blue;
 }
-.cardFront{
-    box-sizing: border-box;
-    width: 33%;
+.digiCardInput{
+    margin-left: 10px;
+    margin-bottom: 30px;
 }
-.card-img{
-    width: 33%;
+#digiContainer{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    box-sizing:border-box;
 }
 #col{
-    width: 33%;
+    height: 400px;
+    width: 250px;
     display: flex;
     flex-wrap: wrap;
-}
-
-#digiContainer{
-    margin-left: 1px;
-    background-color: blue; 
-    margin-right: 0%;
-}
-#col{
     transform-style: preserve-3d;
     transition-duration: .8s;
     position: relative;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
 }
 .cardFront{
+    position: absolute;
+    box-sizing:content-box;
     backface-visibility:hidden;
     z-index: 10;
 }
 .card-bodyBack{
-    margin-top: 120px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     z-index: 1;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
 }
 .card-title{
     color: orange;
